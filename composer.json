@@ -1,0 +1,23 @@
+{
+    "name": "ijanki/elasticsearch-bundle",
+    "description": "Tiny wrapper to official elasticsearch php client",
+    "type": "symfony-bundle",
+    "keywords": ["elasticsearch"],
+    "homepage": "https://github.com/iJanki/ElasticsearchBundle",
+    "require": {
+        "elasticsearch/elasticsearch": "^6.0",
+        "symfony/dependency-injection": "*",
+        "symfony/config": "*",
+        "symfony/http-kernel": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesarini, Daniele",
+            "email": "daniele.cesarini@sky.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ijanki\\Bundle\\ElasticsearchBundle\\": "" }
+    }
+}
